@@ -1,0 +1,704 @@
+Last login: Tue Nov  7 03:20:50 on ttys000
+iMac-de-Francisco:~ franciscodieguez$ cd cd e
+-bash: cd: cd: No such file or directory
+iMac-de-Francisco:~ franciscodieguez$ cd eclipse-workspace
+iMac-de-Francisco:eclipse-workspace franciscodieguez$ cd enSierra
+iMac-de-Francisco:enSierra franciscodieguez$ cd m1_17
+-bash: cd: m1_17: No such file or directory
+iMac-de-Francisco:enSierra franciscodieguez$ cd m
+-bash: cd: m: No such file or directory
+iMac-de-Francisco:enSierra franciscodieguez$ ls
+Algoritmo_Ordenacion			Proyect_VersionTree
+BAG_Version_two				Prueba_13_10_2023
+Bag_Proyect_Version4			Servers
+Cartas					Tarea_2
+Cartas_tokio_INTERFACE			Universidad
+CharSequenceTokio			Universidad_VersionDos
+EjemploHerenc				Universidad_version2
+EjemploHerenc 2				cartas_intereface
+Ejemplo_Herencia_Interfaces		cartas_interface
+Interfaces_Ejemplos			com.Tokio.Ejercicio_11
+M1_12_Bag				com.Tokio.Ejercicio_11_Rectangulo
+M1_13_Tokio_CuentaBancaria		pRUEBAiMPORT
+Merge_Sort
+iMac-de-Francisco:enSierra franciscodieguez$ cartas_interface
+-bash: cartas_interface: command not found
+iMac-de-Francisco:enSierra franciscodieguez$ cd cartas_interface
+iMac-de-Francisco:cartas_interface franciscodieguez$ ls
+m1_17
+iMac-de-Francisco:cartas_interface franciscodieguez$ cd m1_17
+iMac-de-Francisco:m1_17 franciscodieguez$ ls
+AlgoritmoOrdenacion.class	OrdNumIncPal2.class
+AlgoritmoOrdenacion.java	OrdNumIncPal2.java
+Baraja.class			OrdPalNumDec$1.class
+Baraja.java			OrdPalNumDec.class
+Carta.class			OrdPalNumDec.java
+Carta.java			OrdPalNumInc$1.class
+Main.class			OrdPalNumInc.class
+Main.java			OrdPalNumInc.java
+Mazo.class			package-info.class
+Mazo.java			package-info.java
+OrdNumIncPal2$1.class
+iMac-de-Francisco:m1_17 franciscodieguez$ git status
+On branch ramab
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	../../../../....
+	../../../../.CFUserTextEncoding
+	../../../../.DS_Store
+	../../../../.bash_history
+	../../../../.bash_sessions/
+	../../../../.cache/
+	../../../../.cups/
+	../../../../.eclipse/
+	../../../../.gitconfig
+	../../../../.p2/
+	../../../../.profile
+	../../../../.vscode/
+	../../../../Desktop/
+	../../../../Documents/
+	../../../../Downloads/
+	../../../../Library/
+	../../../../Movies/
+	../../../../Music/
+	../../../../Pictures/
+	../../../../Public/
+	../../../../Repositorio_Cartas_interface/
+	../../../.DS_Store
+	../../../.metadata/
+	../../.DS_Store
+	../../.metadata/
+	../../Algoritmo_Ordenacion/
+	../../BAG_Version_two/
+	../../Bag_Proyect_Version4/
+	../../Cartas/
+	../../Cartas_tokio_INTERFACE/
+	../../CharSequenceTokio/
+	../../EjemploHerenc 2/
+	../../EjemploHerenc/
+	../../Ejemplo_Herencia_Interfaces/
+	../../Interfaces_Ejemplos/
+	../../M1_12_Bag/
+	../../M1_13_Tokio_CuentaBancaria/
+	../../Merge_Sort/
+	../../Proyect_VersionTree/
+	../../Prueba_13_10_2023/
+	../../Servers/
+	../../Tarea_2/
+	../../Universidad/
+	../../Universidad_VersionDos/
+	../../Universidad_version2/
+	../../cartas_intereface/
+	../.classpath
+	../.project
+	../.settings/
+	../../com.Tokio.Ejercicio_11/
+	../../com.Tokio.Ejercicio_11_Rectangulo/
+	../../pRUEBAiMPORT/
+	../../../../iCloud Drive (archivo)/
+	../../../../workspace_Visual_CodeWeb/
+	"../../../../\342\200\223"
+
+nothing added to commit but untracked files present (use "git add" to track)
+iMac-de-Francisco:m1_17 franciscodieguez$ git add Baraja.java
+iMac-de-Francisco:m1_17 franciscodieguez$ git status -s
+?? ../../../../....
+?? ../../../../.CFUserTextEncoding
+?? ../../../../.DS_Store
+?? ../../../../.bash_history
+?? ../../../../.bash_sessions/
+?? ../../../../.cache/
+?? ../../../../.cups/
+?? ../../../../.eclipse/
+?? ../../../../.gitconfig
+?? ../../../../.p2/
+?? ../../../../.profile
+?? ../../../../.vscode/
+?? ../../../../Desktop/
+?? ../../../../Documents/
+?? ../../../../Downloads/
+?? ../../../../Library/
+?? ../../../../Movies/
+?? ../../../../Music/
+?? ../../../../Pictures/
+?? ../../../../Public/
+?? ../../../../Repositorio_Cartas_interface/
+?? ../../../.DS_Store
+?? ../../../.metadata/
+?? ../../.DS_Store
+?? ../../.metadata/
+?? ../../Algoritmo_Ordenacion/
+?? ../../BAG_Version_two/
+?? ../../Bag_Proyect_Version4/
+?? ../../Cartas/
+?? ../../Cartas_tokio_INTERFACE/
+?? ../../CharSequenceTokio/
+?? ../../EjemploHerenc 2/
+?? ../../EjemploHerenc/
+?? ../../Ejemplo_Herencia_Interfaces/
+?? ../../Interfaces_Ejemplos/
+?? ../../M1_12_Bag/
+?? ../../M1_13_Tokio_CuentaBancaria/
+?? ../../Merge_Sort/
+?? ../../Proyect_VersionTree/
+?? ../../Prueba_13_10_2023/
+?? ../../Servers/
+?? ../../Tarea_2/
+?? ../../Universidad/
+?? ../../Universidad_VersionDos/
+?? ../../Universidad_version2/
+?? ../../cartas_intereface/
+?? ../.classpath
+?? ../.project
+?? ../.settings/
+?? ../../com.Tokio.Ejercicio_11/
+?? ../../com.Tokio.Ejercicio_11_Rectangulo/
+?? ../../pRUEBAiMPORT/
+?? ../../../../iCloud Drive (archivo)/
+?? ../../../../workspace_Visual_CodeWeb/
+?? "../../../../\342\200\223"
+iMac-de-Francisco:m1_17 franciscodieguez$ git branch
+  master
+* ramab
+iMac-de-Francisco:m1_17 franciscodieguez$ git add Main.java
+iMac-de-Francisco:m1_17 franciscodieguez$ git status 
+On branch ramab
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	../../../../....
+	../../../../.CFUserTextEncoding
+	../../../../.DS_Store
+	../../../../.bash_history
+	../../../../.bash_sessions/
+	../../../../.cache/
+	../../../../.cups/
+	../../../../.eclipse/
+	../../../../.gitconfig
+	../../../../.p2/
+	../../../../.profile
+	../../../../.vscode/
+	../../../../Desktop/
+	../../../../Documents/
+	../../../../Downloads/
+	../../../../Library/
+	../../../../Movies/
+	../../../../Music/
+	../../../../Pictures/
+	../../../../Public/
+	../../../../Repositorio_Cartas_interface/
+	../../../.DS_Store
+	../../../.metadata/
+	../../.DS_Store
+	../../.metadata/
+	../../Algoritmo_Ordenacion/
+	../../BAG_Version_two/
+	../../Bag_Proyect_Version4/
+	../../Cartas/
+	../../Cartas_tokio_INTERFACE/
+	../../CharSequenceTokio/
+	../../EjemploHerenc 2/
+	../../EjemploHerenc/
+	../../Ejemplo_Herencia_Interfaces/
+	../../Interfaces_Ejemplos/
+	../../M1_12_Bag/
+	../../M1_13_Tokio_CuentaBancaria/
+	../../Merge_Sort/
+	../../Proyect_VersionTree/
+	../../Prueba_13_10_2023/
+	../../Servers/
+	../../Tarea_2/
+	../../Universidad/
+	../../Universidad_VersionDos/
+	../../Universidad_version2/
+	../../cartas_intereface/
+	../.classpath
+	../.project
+	../.settings/
+	../../com.Tokio.Ejercicio_11/
+	../../com.Tokio.Ejercicio_11_Rectangulo/
+	../../pRUEBAiMPORT/
+	../../../../iCloud Drive (archivo)/
+	../../../../workspace_Visual_CodeWeb/
+	"../../../../\342\200\223"
+
+nothing added to commit but untracked files present (use "git add" to track)
+iMac-de-Francisco:m1_17 franciscodieguez$ cd Prueba_git_Paul
+-bash: cd: Prueba_git_Paul: No such file or directory
+iMac-de-Francisco:m1_17 franciscodieguez$ cd
+iMac-de-Francisco:~ franciscodieguez$ cd Prueba_git_Paul
+iMac-de-Francisco:Prueba_git_Paul franciscodieguez$ git init
+Initialized empty Git repository in /Users/franciscodieguez/Prueba_git_Paul/.git/
+iMac-de-Francisco:Prueba_git_Paul franciscodieguez$ git clone /path/to/repository
+fatal: repository '/path/to/repository' does not exist
+iMac-de-Francisco:Prueba_git_Paul franciscodieguez$ git clone https://github.com/Francisco-D-O/Prueba_git_Paul.git
+Cloning into 'Prueba_git_Paul'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+iMac-de-Francisco:Prueba_git_Paul franciscodieguez$ ls
+Prueba_git_Paul
+iMac-de-Francisco:Prueba_git_Paul franciscodieguez$ ls
+Prueba_git_Paul
+iMac-de-Francisco:Prueba_git_Paul franciscodieguez$ ls Prueba_git_Paul
+README.md
+iMac-de-Francisco:Prueba_git_Paul franciscodieguez$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	Prueba_git_Paul/
+
+nothing added to commit but untracked files present (use "git add" to track)
+iMac-de-Francisco:Prueba_git_Paul franciscodieguez$ git clone  https://github.com/Francisco-D-O/Prueba_git_Paul.git
+fatal: destination path 'Prueba_git_Paul' already exists and is not an empty directory.
+iMac-de-Francisco:Prueba_git_Paul franciscodieguez$ Cloning into 'Prueba_git_Paul'...
+-bash: Cloning: command not found
+iMac-de-Francisco:Prueba_git_Paul franciscodieguez$ git clone https://github.com/Francisco-D-O/Prueba_git_Paul.git
+fatal: destination path 'Prueba_git_Paul' already exists and is not an empty directory.
+iMac-de-Francisco:Prueba_git_Paul franciscodieguez$ git pull origin main
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+iMac-de-Francisco:Prueba_git_Paul franciscodieguez$ rm Prueba_git_Paul
+rm: Prueba_git_Paul: is a directory
+iMac-de-Francisco:Prueba_git_Paul franciscodieguez$ rm -r
+usage: rm [-f | -i] [-dPRrvW] file ...
+       unlink file
+iMac-de-Francisco:Prueba_git_Paul franciscodieguez$ rm -r Prueba_git_Paul
+override r--r--r--  franciscodieguez/staff for Prueba_git_Paul/.git/objects/34/e20af3d93a8a843dc260721cabf5c2c48009b7? y
+override r--r--r--  franciscodieguez/staff for Prueba_git_Paul/.git/objects/99/4fca8a9f8def484fc294a9d0510cdec244b233? y
+override r--r--r--  franciscodieguez/staff for Prueba_git_Paul/.git/objects/cb/61279c8970abdeba4c5743f265b83b36a9c459? y
+iMac-de-Francisco:Prueba_git_Paul franciscodieguez$ ls
+iMac-de-Francisco:Prueba_git_Paul franciscodieguez$ git clone https://github.com/Francisco-D-O/Prueba_git_Paul.git
+Cloning into 'Prueba_git_Paul'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (6/6), done.
+iMac-de-Francisco:Prueba_git_Paul franciscodieguez$ ls
+Prueba_git_Paul
+iMac-de-Francisco:Prueba_git_Paul franciscodieguez$ ls Prueba_git_Paul
+README.md		archivoUnoPrueba.txt
+iMac-de-Francisco:Prueba_git_Paul franciscodieguez$ git add .
+warning: adding embedded git repository: Prueba_git_Paul
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint: 	git submodule add <url> Prueba_git_Paul
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint: 	git rm --cached Prueba_git_Paul
+hint: 
+hint: See "git help submodule" for more information.
+iMac-de-Francisco:Prueba_git_Paul franciscodieguez$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   .DS_Store
+	new file:   Prueba_git_Paul
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+
+	modified:   Prueba_git_Paul (untracked content)
+
+iMac-de-Francisco:Prueba_git_Paul franciscodieguez$ git commit -m "Inclusion de Main.java"
+[master (root-commit) 199e3af] Inclusion de Main.java
+ 2 files changed, 1 insertion(+)
+ create mode 100644 .DS_Store
+ create mode 160000 Prueba_git_Paul
+iMac-de-Francisco:Prueba_git_Paul franciscodieguez$ git push origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+iMac-de-Francisco:Prueba_git_Paul franciscodieguez$ cd  Prueba_git_Paul
+iMac-de-Francisco:Prueba_git_Paul franciscodieguez$ ls
+Main.java		README.md		archivoUnoPrueba.txt
+iMac-de-Francisco:Prueba_git_Paul franciscodieguez$ ls -a
+.			.git			README.md
+..			Main.java		archivoUnoPrueba.txt
+iMac-de-Francisco:Prueba_git_Paul franciscodieguez$ git add .
+iMac-de-Francisco:Prueba_git_Paul franciscodieguez$ git commit -m "Inclusion de archivos para envío a repositorio"
+[main cf8ca82] Inclusion de archivos para envío a repositorio
+ 1 file changed, 38 insertions(+)
+ create mode 100644 Main.java
+iMac-de-Francisco:Prueba_git_Paul franciscodieguez$ git origin master
+git: 'origin' is not a git command. See 'git --help'.
+iMac-de-Francisco:Prueba_git_Paul franciscodieguez$ git push origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/Francisco-D-O/Prueba_git_Paul.git'
+iMac-de-Francisco:Prueba_git_Paul franciscodieguez$ git remote add origin
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=<push|fetch>]
+                          set up remote as a mirror to push to or fetch from
+
+iMac-de-Francisco:Prueba_git_Paul franciscodieguez$ git add origin https://github.com/Francisco-D-O/Prueba_git_Paul.git
+fatal: pathspec 'origin' did not match any files
+iMac-de-Francisco:Prueba_git_Paul franciscodieguez$ git branch
+* main
+iMac-de-Francisco:Prueba_git_Paul franciscodieguez$ ls
+Main.java		README.md		archivoUnoPrueba.txt
+iMac-de-Francisco:Prueba_git_Paul franciscodieguez$ ls -a
+.			.git			README.md
+..			Main.java		archivoUnoPrueba.txt
+iMac-de-Francisco:Prueba_git_Paul franciscodieguez$ cd WorKspaceVisualcode
+-bash: cd: WorKspaceVisualcode: No such file or directory
+iMac-de-Francisco:Prueba_git_Paul franciscodieguez$ cd repositorios
+-bash: cd: repositorios: No such file or directory
+iMac-de-Francisco:Prueba_git_Paul franciscodieguez$ cd Repositorios
+-bash: cd: Repositorios: No such file or directory
+iMac-de-Francisco:Prueba_git_Paul franciscodieguez$ cd
+iMac-de-Francisco:~ franciscodieguez$ cd Repositorios
+iMac-de-Francisco:Repositorios franciscodieguez$ CD PruebaRepositorio2
+iMac-de-Francisco:Repositorios franciscodieguez$ git init
+Initialized empty Git repository in /Users/franciscodieguez/Repositorios/.git/
+iMac-de-Francisco:Repositorios franciscodieguez$ ls
+PruebaRepositorio2
+iMac-de-Francisco:Repositorios franciscodieguez$ ls
+PruebaRepositorio2
+iMac-de-Francisco:Repositorios franciscodieguez$ ls -a
+.			..			.DS_Store		.git			PruebaRepositorio2
+iMac-de-Francisco:Repositorios franciscodieguez$ git add .
+iMac-de-Francisco:Repositorios franciscodieguez$ git status -s
+A  .DS_Store
+A  PruebaRepositorio2/ArchivoPrueba2.txt
+iMac-de-Francisco:Repositorios franciscodieguez$ git add .
+iMac-de-Francisco:Repositorios franciscodieguez$ git status -s
+A  .DS_Store
+A  PruebaRepositorio2/ArchivoPrueba2.txt
+iMac-de-Francisco:Repositorios franciscodieguez$ git commit -m "Primer commit ArchivoPrueba2.txt" 
+[master (root-commit) 6a2488e] Primer commit ArchivoPrueba2.txt
+ 2 files changed, 2 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 PruebaRepositorio2/ArchivoPrueba2.txt
+iMac-de-Francisco:Repositorios franciscodieguez$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	PruebaRepositorio2/ArchivoPrueba3.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+iMac-de-Francisco:Repositorios franciscodieguez$ cd PruebaRepositorio2
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ ls
+ArchivoPrueba2.txt	ArchivoPrueba3.txt
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ ls -a
+.			..			ArchivoPrueba2.txt	ArchivoPrueba3.txt
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ git add ArchivoPrueba3.txt
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ git commit -m "añadiendo ArchivoPrueba3.txt"
+[master 55b0c32] añadiendo ArchivoPrueba3.txt
+ 1 file changed, 2 insertions(+)
+ create mode 100644 PruebaRepositorio2/ArchivoPrueba3.txt
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ ls
+ArchivoPrueba2.txt	ArchivoPrueba3.txt
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ ls -a
+.			..			ArchivoPrueba2.txt	ArchivoPrueba3.txt
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ git remote add origin https://github.com/Francisco-D-O/PruebaRepositorio2.git
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ git push -u origin main
+error: src refspec main does not match any.
+error: failed to push some refs to 'https://github.com/Francisco-D-O/PruebaRepositorio2.git'
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ git push -u origin master
+Counting objects: 9, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (9/9), 1.99 KiB | 1.99 MiB/s, done.
+Total 9 (delta 0), reused 0 (delta 0)
+To https://github.com/Francisco-D-O/PruebaRepositorio2.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ git statud -s
+git: 'statud' is not a git command. See 'git --help'.
+
+The most similar command is
+	status
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ git status -s
+ M ArchivoPrueba3.txt
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ git add .
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ git commit -m "Añado a ArchivoPrueba3 explicaión de todos los pasos de este ejercicio"
+[master e83cfaf] Añado a ArchivoPrueba3 explicaión de todos los pasos de este ejercicio
+ 1 file changed, 70 insertions(+)
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ ls -a
+.			..			ArchivoPrueba2.txt	ArchivoPrueba3.txt
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ git push -u origin master
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.37 KiB | 1.37 MiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Francisco-D-O/PruebaRepositorio2.git
+   55b0c32..e83cfaf  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ git status -s
+ M ArchivoPrueba3.txt
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ git add .
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   ArchivoPrueba3.txt
+
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ git commit -m "incorporación de último párrafo" 
+[master cf04134] incorporación de último párrafo
+ 1 file changed, 30 insertions(+)
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ git push -u origin master
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 932 bytes | 932.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Francisco-D-O/PruebaRepositorio2.git
+   e83cfaf..cf04134  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ git clone https://github.com/Francisco-D-O/PruebaRepositorio2.git
+Cloning into 'PruebaRepositorio2'...
+remote: Enumerating objects: 21, done.
+remote: Counting objects: 100% (21/21), done.
+remote: Compressing objects: 100% (16/16), done.
+remote: Total 21 (delta 4), reused 16 (delta 3), pack-reused 0
+Unpacking objects: 100% (21/21), done.
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ git status -s
+ M ../.DS_Store
+?? PruebaRepositorio2/
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ git commit -m "añadir PruebaRepositorio2.txt para que git le pueda hacer seguimiento"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+	modified:   ../.DS_Store
+
+Untracked files:
+	PruebaRepositorio2/
+
+no changes added to commit
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ git add .
+warning: adding embedded git repository: PruebaRepositorio2/PruebaRepositorio2
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint: 	git submodule add <url> PruebaRepositorio2/PruebaRepositorio2
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint: 	git rm --cached PruebaRepositorio2/PruebaRepositorio2
+hint: 
+hint: See "git help submodule" for more information.
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ git rm --cached PruebaRepositorio2/PruebaRepositorio2
+fatal: pathspec 'PruebaRepositorio2/PruebaRepositorio2' did not match any files
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ git branch
+* master
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ ls -a
+.			..			.DS_Store		ArchivoPrueba2.txt	ArchivoPrueba3.txt	PruebaRepositorio2
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ git rm --cached PruebaRepositorio2/PruebaRepositorio2
+fatal: pathspec 'PruebaRepositorio2/PruebaRepositorio2' did not match any files
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   PruebaRepositorio2
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+
+	modified:   ../.DS_Store
+	modified:   PruebaRepositorio2 (modified content)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.DS_Store
+
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ git commit -m "commit a PruebaRepositorio2"
+[master 2d6ad2c] commit a PruebaRepositorio2
+ 1 file changed, 1 insertion(+)
+ create mode 160000 PruebaRepositorio2/PruebaRepositorio2
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ ls -a
+.			..			.DS_Store		ArchivoPrueba2.txt	ArchivoPrueba3.txt	PruebaRepositorio2
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+
+	modified:   ../.DS_Store
+	modified:   PruebaRepositorio2 (modified content)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.DS_Store
+
+no changes added to commit (use "git add" and/or "git commit -a")
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ git add .
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ git commit -m "cambios dentro del Contenido de PruebaRepositorio2"
+[master 1a3094e] cambios dentro del Contenido de PruebaRepositorio2
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 PruebaRepositorio2/.DS_Store
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ ls
+ArchivoPrueba2.txt	ArchivoPrueba3.txt	PruebaRepositorio2
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ git status -s
+ M ../.DS_Store
+ m PruebaRepositorio2
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ git add PruebaRepositorio2
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ git commit -m "incluir las modificaciones de este archivo"
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+	modified:   ../.DS_Store
+	modified:   PruebaRepositorio2 (modified content)
+
+no changes added to commit
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   ../.DS_Store
+	modified:   .DS_Store
+	deleted:    PruebaRepositorio2
+
+no changes added to commit (use "git add" and/or "git commit -a")
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ git diff
+diff --git a/.DS_Store b/.DS_Store
+index 29de315..9558a59 100644
+Binary files a/.DS_Store and b/.DS_Store differ
+diff --git a/PruebaRepositorio2/.DS_Store b/PruebaRepositorio2/.DS_Store
+index d71adda..92f12e2 100644
+Binary files a/PruebaRepositorio2/.DS_Store and b/PruebaRepositorio2/.DS_Store differ
+diff --git a/PruebaRepositorio2/PruebaRepositorio2 b/PruebaRepositorio2/PruebaRepositorio2
+deleted file mode 160000
+index 090c7cf..0000000
+--- a/PruebaRepositorio2/PruebaRepositorio2
++++ /dev/null
+@@ -1 +0,0 @@
+-Subproject commit 090c7cfd4b0b9fde137158a50890012691e1f0e2
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   ../.DS_Store
+	modified:   .DS_Store
+	deleted:    PruebaRepositorio2
+
+no changes added to commit (use "git add" and/or "git commit -a")
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ git diff staged
+fatal: ambiguous argument 'staged': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ git add/rm PruebaRepositorio2
+git: 'add/rm' is not a git command. See 'git --help'.
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ git rm PruebaRepositorio2
+rm 'PruebaRepositorio2/PruebaRepositorio2'
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	deleted:    PruebaRepositorio2
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   ../.DS_Store
+	modified:   .DS_Store
+
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ git commit -m "borrar archivo clonado PruebaRepositorio2, ya que se pretendía clonar los archivos que contenía no toda la carpeta"
+[master adc3c59] borrar archivo clonado PruebaRepositorio2, ya que se pretendía clonar los archivos que contenía no toda la carpeta
+ 1 file changed, 1 deletion(-)
+ delete mode 160000 PruebaRepositorio2/PruebaRepositorio2
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ ls
+ArchivoPrueba2.txt	ArchivoPrueba3.txt
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ git clone ArchivoPrueba2.txt
+fatal: destination path 'ArchivoPrueba2.txt' already exists and is not an empty directory.
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ Añadiendo Primer comentario a las 18.37 7/11/23
+-bash: Añadiendo: command not found
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ Creando línea para clonarla y que me aparezca en el archivo creado en la carpeta que está enlazada a este repositorio.
+-bash: Creando: command not found
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ ls
+ArchivoPrueba2.txt	ArchivoPrueba3.txt
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ cat ArchivoPrueba2.txt
+ArchivoPrueba2.txt
+Añadiendo Primer comentario a las 18.37 7/11/23iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ git clone PruebaRepositorio2/ArchivoPrueba2.txt
+fatal: repository 'PruebaRepositorio2/ArchivoPrueba2.txt' does not exist
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ git branch
+* master
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ ls
+ArchivoPrueba2.txt	ArchivoPrueba3.txt
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ git pull
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (4/4), done.
+From https://github.com/Francisco-D-O/PruebaRepositorio2
+   cf04134..090c7cf  master     -> origin/master
+Merge made by the 'recursive' strategy.
+ PruebaRepositorio2/ArchivoPrueba2.txt | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ ls
+ArchivoPrueba2.txt	ArchivoPrueba3.txt
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ cat ArchivoPrueba2.txt
+ArchivoPrueba2.txt
+Añadiendo Primer comentario a las 18.37 7/11/23
+Creando línea para clonarla y que me aparezca en el archivo creado en la carpeta que está enlazada a este repositorio.
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ 
