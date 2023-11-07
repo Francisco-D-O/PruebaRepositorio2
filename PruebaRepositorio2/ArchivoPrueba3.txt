@@ -68,5 +68,35 @@ Total 9 (delta 0), reused 0 (delta 0)
 To https://github.com/Francisco-D-O/PruebaRepositorio2.git
  * [new branch]      master -> master
 Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+<div>
+A partir de aquí se realiza el añadido de esta explicación anterior a git Hub  y ahora crearé lo mismo con este último comentario, que ya no comentaré mas que en el texto aclaratorio del commit - " aclaración de esta incorporación".
+</div>
+
+
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ git statud -s
+git: 'statud' is not a git command. See 'git --help'.
+
+The most similar command is
+	status
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ git status -s
+ M ArchivoPrueba3.txt
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ git add .
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ git commit -m "Añado a ArchivoPrueba3 explicaión de todos los pasos de este ejercicio"
+[master e83cfaf] Añado a ArchivoPrueba3 explicaión de todos los pasos de este ejercicio
+ 1 file changed, 70 insertions(+)
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ ls -a
+.			..			ArchivoPrueba2.txt	ArchivoPrueba3.txt
+iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ git push -u origin master
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.37 KiB | 1.37 MiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Francisco-D-O/PruebaRepositorio2.git
+   55b0c32..e83cfaf  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
 iMac-de-Francisco:PruebaRepositorio2 franciscodieguez$ 
+
 
