@@ -19,7 +19,7 @@ public class NumProgramadorValido2 {
 		
 			
 		
-		while (!(NumProgramadores <2) && NumProgramadores >3) {
+		while (!(NumProgramadores == 2) || (NumProgramadores == 3)) {
 			
 			System.out.println("Mínimo de programadores aceptados 2 máximo 3. ");
 			NumProgramadores=Integer.parseInt(keyboard.nextLine());
