@@ -1,0 +1,12 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore temporary files
+*.swp
+
+# Ignore specific directories
+/enSierra/.metadata/
+/enSierra/EquipoProgramadores/.DS_Store
+/enSierra/EquipoProgramadores/.classpath
+/enSierra/EquipoProgramadores/.project
+/enSierra/EquipoProgramadores/.settings/
